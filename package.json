@@ -1,0 +1,57 @@
+{
+  "name": "antigravity-history-restorer",
+  "displayName": "Antigravity History Restorer",
+  "description": "Restore missing or unindexed AI chat conversations into Antigravity IDE after reinstallation or updates.",
+  "version": "0.1.0",
+  "publisher": "nddaniel",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Utilities"
+  ],
+  "keywords": [
+    "antigravity",
+    "history",
+    "restore",
+    "conversations",
+    "ai-chat",
+    "recovery"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "antigravityHistoryRestorer.restore",
+        "title": "Antigravity: Restore Missing Chats",
+        "category": "Antigravity"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "antigravityHistoryRestorer.restore",
+          "when": "true"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "build": "node esbuild.js --production",
+    "watch": "node esbuild.js --watch",
+    "package": "npx @vscode/vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.80.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.3.3"
+  }
+}
