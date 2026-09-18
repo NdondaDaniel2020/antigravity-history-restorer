@@ -24,17 +24,17 @@ Did your previous AI chats disappear after updating, reinstalling, or switching 
 
 ---
 
-## ✨ Features
+## Features
 
-- **🚀 1-Click Restoration:** Single command from the Command Palette restores your entire conversation history.
-- **🔍 Auto-Detection:** Dynamically discovers the active Language Server PID, local listening port, and CSRF authentication token.
-- **📊 Real-Time Progress:** Native VS Code notification bar displays live restoration count and progress.
-- **🔒 100% Local & Private:** All communication happens entirely on `127.0.0.1` via internal Connect-Protocol RPC. No data leaves your machine.
-- **💻 Cross-Platform:** Full out-of-the-box support for **Linux** (including Snap classic confinement), **macOS**, and **Windows**.
+- **1-Click Restoration:** Single command from the Command Palette restores your entire conversation history.
+- **Auto-Detection:** Dynamically discovers the active Language Server PID, local listening port, and CSRF authentication token.
+- **Real-Time Progress:** Native VS Code notification bar displays live restoration count and progress.
+- **100% Local & Private:** All communication happens entirely on `127.0.0.1` via internal Connect-Protocol RPC. No data leaves your machine.
+- **Cross-Platform:** Full out-of-the-box support for **Linux** (including Snap classic confinement), **macOS**, and **Windows**.
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 1. Open **Antigravity IDE**.
 2. Open the Command Palette:
@@ -49,7 +49,7 @@ Did your previous AI chats disappear after updating, reinstalling, or switching 
 
 ---
 
-## 🛠️ How It Works Behind the Scenes
+## How It Works Behind the Scenes
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -78,7 +78,7 @@ Did your previous AI chats disappear after updating, reinstalling, or switching 
 
 ---
 
-## 🔐 Privacy & Security
+## Privacy & Security
 
 - **No External Network Calls:** The extension communicates exclusively with the local loopback interface (`127.0.0.1`).
 - **No Data Collection:** Zero analytics, zero telemetry, and zero tracking.
@@ -86,7 +86,7 @@ Did your previous AI chats disappear after updating, reinstalling, or switching 
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 <details>
 <summary><b>Why did my conversations disappear in the first place?</b></summary>
@@ -108,7 +108,7 @@ Antigravity IDE stores actual conversation data in SQLite files on disk, but its
 
 ---
 
-## 📄 License & Source Code
+## License & Source Code
 
 - **License:** [MIT License](LICENSE)
 - **Source Code:** [GitHub Repository](https://github.com/NdondaDaniel2020/antigravity-history-restorer)
