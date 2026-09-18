@@ -2,7 +2,7 @@
   "name": "antigravity-history-restorer",
   "displayName": "Antigravity History Restorer",
   "description": "Restore missing or unindexed AI chat conversations into Antigravity IDE after reinstallation or updates.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "NdondaDaniel2020",
   "icon": "icon.png",
   "license": "MIT",
